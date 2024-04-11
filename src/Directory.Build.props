@@ -1,0 +1,17 @@
+<Project>
+
+  <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../../../'))" />
+
+  <PropertyGroup>
+ 		<Version>2.0.3</Version>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TargetFrameworks>net452;net46;net461</TargetFrameworks>
+	  <OutputType>Library</OutputType>
+   	<Description>Microsoft Dependency Injection Framework For Framework 4.5 &amp; 4.6</Description>
+ 	  <GeneratePackageOnBuild Condition=" '$(Configuration)' == 'Release' ">True</GeneratePackageOnBuild>
+ 	  <PackageTags>API;.NET;C#;Dependancy Injection</PackageTags>
+   	<PackageReleaseNotes>Update target framework to include .NET 9.0.</PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+<Project>
+
+  <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.targets', '$(MSBuildThisFileDirectory)../../../'))" />
+
+  <Target Name="MoveREADME" AfterTargets="Pack" DependsOnTargets="WriteToFile" Condition=" Exists($(PackageReadmeFile)) And '$(GenerateREADME)' == 'True' ">
+		<Message Text="Copying '$(MSBuildProjectName)\$(PackageReadmeFile)' up two directories." Importance="high" />
+		<Copy SourceFiles="$(PackageReadmeFile)" DestinationFolder="../../" OverwriteReadOnlyFiles="true" />
+	</Target>
+
+</Project>

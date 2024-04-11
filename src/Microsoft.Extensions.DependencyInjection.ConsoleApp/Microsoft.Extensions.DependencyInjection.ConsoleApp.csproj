@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<GenerateREADME>False</GenerateREADME>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Microsoft.Extensions.DependencyInjection\Microsoft.Extensions.DependencyInjection.csproj" />
+	</ItemGroup>
+
+</Project>

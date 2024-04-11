@@ -1,4 +1,4 @@
-# Microsoft.Extensions.DependencyInjection
+﻿# Microsoft.Extensions.DependencyInjection
 ### Microsoft Dependency Injection Framework For Framework 4.5 & 4.6
 
 
@@ -15,7 +15,7 @@
 | SUPPORTS:    | [Visual Studio]                                                |
 | GFX SUBSYS:  | [None]                                                     |
 | TAGS:        | [API], [.NET], [C#], [Dependancy Injection]                                                |
-| STATUS       | [![.NET Core Desktop Build](https://github.com/Latency/FrameworkEOL-DependencyInjection/actions/workflows/dotnet.yml/badge.svg)](https://github.com/Latency/FrameworkEOL-DependencyInjection/actions/workflows/dotnet.yml)                                                     |
+| STATUS       | [![.NET](https://github.com/Latency/FrameworkEOL-DependencyInjection/actions/workflows/dotnet.yml/badge.svg)](https://github.com/Latency/FrameworkEOL-DependencyInjection/actions/workflows/dotnet.yml)                                                     |
 | LICENSE:     | [![License](https://img.shields.io/badge/MIT-License-yellowgreen.svg)](https://github.com/Latency/FrameworkEOL-DependencyInjection/blob/master/MIT-LICENSE.txt)                                                    |
 | VERSION:     | [![GitHub Release](https://img.shields.io/badge/Version-2.0.3-blue)](https://github.com/Latency/FrameworkEOL-DependencyInjection/releases)                                                    |
 
